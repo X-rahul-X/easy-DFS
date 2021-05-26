@@ -1,4 +1,6 @@
+
 var findOrder = function(nc, preqs) {
+//     preqs can be an array of arrays containing the possible adjacencies
     
     let graph = buildGraph(nc,preqs);
     let visited = [];
